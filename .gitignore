@@ -1,0 +1,10 @@
+node_modules/
+artifacts/
+cache/
+typechain-types/
+coverage/
+coverage.json
+dist/
+sim.out
+*.log
+.DS_Store

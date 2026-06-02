@@ -1,0 +1,28 @@
+{
+  "name": "hashcanvas",
+  "version": "1.0.0",
+  "description": "HashCanvas - Decentralized artwork lifecycle & multi-authority governance (Blockchains PW-04)",
+  "license": "MIT",
+  "scripts": {
+    "build": "hardhat compile",
+    "test": "hardhat test",
+    "simulate": "hardhat run scripts/simulate.ts",
+    "demo:1": "hardhat run scripts/demo/scenario1.ts",
+    "demo:2": "hardhat run scripts/demo/scenario2.ts",
+    "demo:3": "hardhat run scripts/demo/scenario3.ts"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.1.0",
+    "hardhat": "^2.22.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@helia/json": "^4.0.0",
+    "@helia/unixfs": "^4.0.0",
+    "blockstore-core": "^5.0.0",
+    "helia": "^5.1.0",
+    "multiformats": "^13.3.0"
+  }
+}
